@@ -1,7 +1,11 @@
-function App() {
-    return (
-        <h1>Hello World</h1>
-    )
-}
+import Routes from './routes'
+import GlobalStyle from './styles/global'
+
+const App = () => (
+    <>
+        <Routes />
+        <GlobalStyle />
+    </>
+)
 
 export default App
